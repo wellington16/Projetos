@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jogovelha.com.br.jogodavelha.PrincipalActivity"
+    android:background="@drawable/images">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="false"
+        android:longClickable="false">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_height="70dp"
+                android:tag="quadrado1"
+                android:onClick="clickQuadrado"
+                android:enabled="false"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:layout_width="100dp" />
+
+            <Button
+                android:layout_height="70dp"
+                android:tag="quadrado2"
+                android:onClick="clickQuadrado"
+                android:enabled="false"
+
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:layout_width="100dp" />
+            <Button
+                android:layout_height="70dp"
+                android:tag="quadrado3"
+                android:onClick="clickQuadrado"
+                android:enabled="false"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:layout_width="100dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:onClick="clickQuadrado"
+            android:enabled="false"
+            >
+            <Button
+                android:layout_height="70dp"
+                android:tag="quadrado4"
+                android:onClick="clickQuadrado"
+                android:enabled="false"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:layout_width="100dp" />
+
+            <Button
+                android:layout_height="70dp"
+                android:tag="quadrado5"
+                android:onClick="clickQuadrado"
+                android:enabled="false"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:layout_width="100dp" />
+
+            <Button
+                android:layout_height="70dp"
+                android:tag="quadrado6"
+                android:onClick="clickQuadrado"
+                android:enabled="false"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:layout_width="100dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_height="70dp"
+                android:tag="quadrado7"
+                android:onClick="clickQuadrado"
+                android:enabled="false"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:layout_width="100dp" />
+
+            <Button
+                android:layout_height="70dp"
+                android:tag="quadrado8"
+                android:onClick="clickQuadrado"
+                android:enabled="false"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:layout_width="100dp" />
+            <Button
+                android:layout_height="70dp"
+                android:tag="quadrado9"
+                android:onClick="clickQuadrado"
+                android:enabled="false"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:layout_width="100dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+        android:text="Sair"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/btnSair"
+        android:onClick="sair"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="Jogar"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/play"
+            android:onClick="novoJogo"
+            android:layout_above="@+id/btnSair"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/play"
+            android:layout_centerHorizontal="true">
+            <RadioButton
+                android:text="O"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbO"
+                android:layout_above="@+id/play"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="23dp"
+                android:textSize="30sp"
+                android:textAlignment="center" />
+
+            <RadioButton
+                android:text="X"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbX"
+                android:layout_weight="1"
+                android:layout_above="@+id/rbO"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="30sp" />
+        </RadioGroup>
+
+        <TextView
+            android:text="Escolha 'O' ou 'X' e clique em jogar para começar."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

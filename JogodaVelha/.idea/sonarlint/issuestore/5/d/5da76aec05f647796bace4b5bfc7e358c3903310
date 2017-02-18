@@ -1,0 +1,24 @@
+
+=squid:S1068"(Remove this unused "sair" private field.(˜„º½
+6squid:S1170"!Make this final field static too.(êùåç
+Psquid:S1172"/Remove this unused method parameter "contador".(ÚøÄûûÿÿÿÿ8´Ö†õ¤+
+Ksquid:S1066"/Merge this if statement with the enclosing one.(Ï°ì§8ìÇêò¤+
+nsquid:S00116"SRename this field "QUADRADO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÀÿÑúÿÿÿÿ
+asquid:UselessImportCheck"8Remove this unused import 'java.util.prefs.Preferences'.(àñì8šÖãğ¤+
+jsquid:S00116"ORename this field "BOLA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°úûµùÿÿÿÿ
+Bsquid:S1068"(Remove this unused "play" private field.(–Şóíûÿÿÿÿ
+isquid:MaximumInheritanceDepth"=This class has 11 parents which is greater than 5 authorized.(èå°ıÿÿÿÿ
+Gsquid:S1172"+Remove this unused method parameter "view".(öä®Ù8²š§ó¤+
+Isquid:S1185"(Remove this method to simply inherit it.(œƒƒ©ùÿÿÿÿ8îğäô¤+
+Gsquid:S1172"+Remove this unused method parameter "view".(û»öÁ8ÆÈæô¤+
+;squid:S1170"!Make this final field static too.(°úûµùÿÿÿÿ
+bsquid:S00116"LRename this field "X" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êùåç
+[squid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ8ù¸›ñ¤+
+;squid:S1170"!Make this final field static too.(ŒÀÿÑúÿÿÿÿ
+Ysquid:S1764"8Identical sub-expressions on both sides of operator "&&"(ÑÍ¯Ûûÿÿÿÿ8ã»ıç¤+
+bsquid:S1132"FMove the "" string literal on the left side of this string comparison.(†íÅñ8ßÑ¬ô¤+
+dsquid:UselessImportCheck"6Remove this unused import 'android.widget.RadioGroup'.(İÚûÿÿÿÿ8æ¬óô¤+
+bsquid:S1132"FMove the "" string literal on the left side of this string comparison.(Ó±ß8ã»ıç¤+
+gsquid:S1132"FMove the "" string literal on the left side of this string comparison.(ÑÍ¯Ûûÿÿÿÿ8ã»ıç¤+
+bsquid:S1132"FMove the "" string literal on the left side of this string comparison.(û¿¦í8ã»ıç¤+
+Tsquid:S1764"8Identical sub-expressions on both sides of operator "&&"(û¿¦í8ã»ıç¤+
