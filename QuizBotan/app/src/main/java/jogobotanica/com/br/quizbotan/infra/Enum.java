@@ -1,21 +1,20 @@
 package jogobotanica.com.br.quizbotan.infra;
 
 /**
- * Created by WELLINGTON on 12/02/2017.
+ * Created by reale on 30/09/2016.
  */
 
-public final class Enum {
+public class Enum {
+    public static final int EASY_MODE_NUM = 5; // NUMBER OF QUESTION IN EASY MODE
+    public static final int MEDIUM_MODE_NUM = 10;
+    public static final int HARD_MODE_NUM = 15;
+    public  static final int HARDEST_MODE_NUM = 25;
 
-    public static final int EASY_NIVELJOGO_NUM = 30; // NUMBER OF QUESTION IN EASY MODE
-    public static final int MEDIUM_NIVELJOGO_NUM = 50;
-    public static final int HARD_NIVELJOGO_NUM = 100;
-    public  static final int HARDEST_NIVELJOGO_NUM = 200;
-
-    public enum NIVELJOGO{
-        FACIL,
-        MEDIO,
-        AVANÇADO,
-        HARDSET
+    public enum MODE{
+        EASY,
+        MEDIUM,
+        HARD,
+        HARDEST
     }
 
 }

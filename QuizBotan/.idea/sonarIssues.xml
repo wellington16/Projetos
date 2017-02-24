@@ -3,77 +3,7 @@
   <component name="issues">
     <option name="index">
       <map>
-        <entry key="/Dummy.txt">
-          <value>
-            <set />
-          </value>
-        </entry>
         <entry key="/a.dummy">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="/fragment.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="C:/Projetos Android/projeto4/app/src/main/java/com/mercapp/usuario/persistencia/UsuarioPersistencia.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/AppData/Local/Android/sdk/platforms/android-25/android.jar!/android/graphics/drawable/Drawable.class">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/AppData/Local/Android/sdk/platforms/android-25/android.jar!/android/os/Handler.class">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../FlagsQuizApp-master/app/src/main/res/layout/activity_main.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Maps/app/src/debug/res/values/google_maps_api.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Maps/app/src/main/AndroidManifest.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Maps/app/src/main/java/maps/com/br/maps/MapsActivity.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Maps/app/src/main/java/maps/com/br/maps/MapsFragment.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Maps/app/src/main/java/maps/com/br/maps/PrincipalActivity.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Maps/app/src/main/res/layout/app_bar_principal.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Maps/app/src/main/res/layout/content_principal.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Maps/app/src/main/res/menu/activity_principal_drawer.xml">
           <value>
             <set />
           </value>
@@ -83,17 +13,17 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/jogobotanica/com/br/quizbotan/PrincipalActivity.java">
+        <entry key="$PROJECT_DIR$/app/src/main/java/jogobotanica/com/br/quizbotan/dominio/Question.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/jogobotanica/com/br/quizbotan/dominio/Questoes.java">
+        <entry key="$PROJECT_DIR$/app/src/main/java/jogobotanica/com/br/quizbotan/dominio/Ranking.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/jogobotanica/com/br/quizbotan/gui/FimJogoActivity.java">
+        <entry key="$PROJECT_DIR$/app/src/main/java/jogobotanica/com/br/quizbotan/gui/Done.java">
           <value>
             <set />
           </value>
@@ -103,17 +33,37 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/jogobotanica/com/br/quizbotan/gui/PrincipalActivity.java">
+        <entry key="$PROJECT_DIR$/app/src/main/java/jogobotanica/com/br/quizbotan/gui/MainActivity.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/jogobotanica/com/br/quizbotan/infra/BDHelper.java">
+        <entry key="$PROJECT_DIR$/app/src/main/java/jogobotanica/com/br/quizbotan/gui/Playing.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/jogobotanica/com/br/quizbotan/infra/DBHelper.java">
+        <entry key="$PROJECT_DIR$/app/src/main/java/jogobotanica/com/br/quizbotan/gui/Score.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/jogobotanica/com/br/quizbotan/gui/Splash.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/jogobotanica/com/br/quizbotan/infra/Common.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/jogobotanica/com/br/quizbotan/infra/CustomAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/jogobotanica/com/br/quizbotan/infra/CustomImagemAdapter.java">
           <value>
             <set />
           </value>
@@ -128,32 +78,42 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/jogobotanica/com/br/quizbotan/persistencia/JogarPersistencia.java">
+        <entry key="$PROJECT_DIR$/app/src/main/java/jogobotanica/com/br/quizbotan/persistencia/DbHelper.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/jogobotanica/com/br/quizbotan/persistencia/JogarPersitencia.java">
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_done.xml">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_jogar.xml">
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_principal.xml">
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_playing.xml">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/test/java/jogobotanica/com/br/quizbotan/infra/Enum.java">
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_score.xml">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/test/java/jogobotanica/com/br/quizbotan/infra/PrincipalActivity.java">
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/styles.xml">
           <value>
             <set />
           </value>
